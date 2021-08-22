@@ -1,0 +1,105 @@
+configure_sudoers: true
+sudoers_custom_config: |
+  # Allow users in admin group to use sudo with no password.
+  %admin ALL=(ALL) NOPASSWD: ALL
+
+homebrew_installed_packages:
+  # - ansible # Installed via Pip.
+  - bash-completion
+  - gettext
+  - git
+  - github/gh/gh
+  - helm
+  - hub
+  - kubectx
+  - kubernetes-cli
+  - minikube
+  - ssh-copy-id
+  - openssl
+  - tree
+  - watch
+  - wget
+  - zsh-history-substring-search
+
+homebrew_installed_packages:
+  - amazon-ecs-cli
+  - ansible-lint
+  - awscli
+  - azure-cli
+  - bash-completion
+  - coreutils
+  - eksctl
+  - gettext
+  - git
+  - github/gh/gh
+  - helm
+  - hub
+  - jq
+  - jx
+  - k9s
+  - kubectx
+  - kubernetes-cli
+  - kustomize
+  - lftp
+  - maven
+  - minikube
+  - openjdk
+  - openssl
+  - ssh-copy-id
+  - tree
+  - watch
+  - vault
+  - wget
+  - xz
+  - yq
+  - zsh-history-substring-search
+
+
+homebrew_taps:
+  - homebrew/core
+  - homebrew/cask
+
+homebrew_cask_appdir: /Applications
+homebrew_cask_apps:
+  - backblaze
+  - docker
+  - google-chrome
+  - handbrake
+  - iterm2
+  - lens
+  - licecap
+  - microsoft-office
+  - openemu
+  - quicken
+  - slack
+  - visual-studio-code
+  - vagrant
+  - virtualbox
+  - vivaldi
+  - vlc
+  - wireshark
+  - zoom
+
+mas_installed_apps:
+  - { id: 1346203938, name: "OmniFocus" }
+  - { id: 425424353, name: "The Unarchiver" }
+  - { id: 1116599239, name: "NordVPN IKE" }
+
+pip_packages:
+  - name: mkdocs
+  - name: pyyaml
+
+configure_dock: true
+dockitems_remove:
+  - Launchpad
+  - FaceTime
+  - Calendar
+  - TV
+  - Music
+  - Podcasts
+  - News
+  - Keynote
+  - Numbers
+  - 'App Store'
+  - 'System Preferences'
+
