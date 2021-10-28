@@ -4,21 +4,37 @@ sudoers_custom_config: |
   %admin ALL=(ALL) NOPASSWD: ALL
 
 homebrew_installed_packages:
-  # - ansible # Installed via Pip.
+  - amazon-ecs-cli
+  - ansible-lint
+  - awscli
+  - azure-cli
   - bash-completion
+  - coreutils
+  - eksctl
   - gettext
   - git
   - github/gh/gh
   - helm
   - hub
+  - jq
+  - jx
+  - k9s
   - kubectx
   - kubernetes-cli
+  - kustomize
+  - lftp
+  - maven
   - minikube
-  - ssh-copy-id
+  - openjdk
   - openssl
+  - ssh-copy-id
+  - tektoncd-cli
   - tree
   - watch
+  - vault
   - wget
+  - xz
+  - yq
   - zsh-history-substring-search
 
 homebrew_taps:
@@ -47,6 +63,7 @@ homebrew_cask_apps:
   - zoom
 
 mas_installed_apps:
+  - { id: 443987910, name: "1Password" }
   - { id: 1346203938, name: "OmniFocus" }
   - { id: 425424353, name: "The Unarchiver" }
   - { id: 1116599239, name: "NordVPN IKE" }
