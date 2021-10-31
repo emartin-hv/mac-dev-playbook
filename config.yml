@@ -1,3 +1,21 @@
+---
+downloads: ~/.ansible-downloads/
+
+configure_dotfiles: true
+dotfiles_repo: https://github.com/emartin-hv/dotfiles.git
+dotfiles_repo_accept_hostkey: true
+dotfiles_repo_local_destination: ~/Source/dotfiles
+dotfiles_files:
+  - .zshrc
+  - .gitignore
+  - .osx
+  - .vimrc
+
+configure_terminal: false
+
+configure_osx: true
+osx_script: "~/.osx --no-restart"
+
 configure_sudoers: true
 sudoers_custom_config: |
   # Allow users in admin group to use sudo with no password.
@@ -17,7 +35,6 @@ homebrew_installed_packages:
   - helm
   - hub
   - jq
-  - jx
   - k9s
   - kubectx
   - kubernetes-cli
@@ -56,15 +73,17 @@ homebrew_cask_apps:
   - slack
   - visual-studio-code
   - vagrant
-  - virtualbox
   - vivaldi
   - vlc
   - wireshark
   - zoom
 
+mas_email: ""
+mas_password: ""
 mas_installed_apps:
-  - { id: 443987910, name: "1Password" }
+  - { id: 1333542190, name: "1Password" }
   - { id: 1346203938, name: "OmniFocus" }
+  - { id: 1116599239, name: "NordVPN IKE" }
   - { id: 425424353, name: "The Unarchiver" }
 
 pip_packages:
@@ -73,15 +92,30 @@ pip_packages:
 
 configure_dock: true
 dockitems_remove:
-  - Launchpad
-  - FaceTime
-  - Calendar
-  - TV
-  - Music
-  - Podcasts
-  - News
-  - Keynote
-  - Numbers
   - 'App Store'
+  - Calendar
+  - Contacts
+  - FaceTime
+  - Keynote
+  - Launchpad
+  - News
+  - Numbers
+  - Pages
+  - Podcasts
+  - TV
+  - Reminders
   - 'System Preferences'
+dockitems_persist:
+  - name: "OmniFocus"
+    path: "/Applications/OmniFocus.app/"
+    pos: 5
+  - name: "iTerm"
+    path: "/Applications/iTerm.app/"
+    pos: 6
+  - name: "Quicken"
+    path: "/Applications/Quicken.app/"
+    pos: 7
+  - name: "Visual Studio Code"
+    path: "/Applications/Visual Studio Code.app/"
+    pos: 8
 
