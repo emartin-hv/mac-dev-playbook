@@ -44,6 +44,7 @@ homebrew_installed_packages:
   - minikube
   - openjdk
   - openssl
+  - podman
   - ssh-copy-id
   - tektoncd-cli
   - tree
