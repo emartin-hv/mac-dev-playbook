@@ -47,8 +47,8 @@ homebrew_installed_packages:
   - ssh-copy-id
   - tektoncd-cli
   - tree
-  - watch
   - vault
+  - watch
   - wget
   - xz
   - yq
@@ -71,8 +71,8 @@ homebrew_cask_apps:
   - openemu
   - quicken
   - slack
-  - visual-studio-code
   - vagrant
+  - visual-studio-code
   - vivaldi
   - vlc
   - wireshark
@@ -82,9 +82,13 @@ mas_email: ""
 mas_password: ""
 mas_installed_apps:
   - { id: 1333542190, name: "1Password" }
-  - { id: 1346203938, name: "OmniFocus" }
   - { id: 1116599239, name: "NordVPN IKE" }
+  - { id: 1346203938, name: "OmniFocus" }
+  - { id: 1515445551, name: "Pi-hole Remote" }
+  - { id: 450545814, name: "Solar App" }
   - { id: 425424353, name: "The Unarchiver" }
+  - { id: 1384080005, name: "Tweetbot 3 for Twitter" }
+
 
 pip_packages:
   - name: mkdocs
