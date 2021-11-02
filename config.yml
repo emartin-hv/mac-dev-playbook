@@ -42,6 +42,7 @@ homebrew_installed_packages:
   - lftp
   - maven
   - minikube
+  - nmap
   - openjdk
   - openssl
   - podman
