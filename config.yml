@@ -96,6 +96,7 @@ mas_installed_apps:
 
 pip_packages:
   - name: mkdocs
+  - name: pelican
   - name: pyyaml
 
 configure_dock: true
