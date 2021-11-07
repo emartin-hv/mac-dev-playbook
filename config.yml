@@ -49,6 +49,7 @@ homebrew_installed_packages:
   - podman
   - ssh-copy-id
   - tektoncd-cli
+  - terraform
   - tree
   - vault
   - watch
