@@ -34,6 +34,7 @@ homebrew_installed_packages:
   - github/gh/gh
   - helm
   - hstr
+  - htop
   - hub
   - jq
   - k9s
@@ -43,6 +44,7 @@ homebrew_installed_packages:
   - lftp
   - maven
   - minikube
+  - ncdu
   - nmap
   - openjdk
   - openssl
