@@ -27,8 +27,12 @@ homebrew_installed_packages:
   - awscli
   - azure-cli
   - bash-completion
+  - bat
+  - cmatrix
   - coreutils
+  - ctop
   - eksctl
+  - fzf
   - gettext
   - git
   - github/gh/gh
@@ -45,10 +49,12 @@ homebrew_installed_packages:
   - maven
   - minikube
   - ncdu
+  - netcat
   - nmap
   - openjdk
   - openssl
   - podman
+  - ripgrep
   - ssh-copy-id
   - tektoncd-cli
   - terraform
